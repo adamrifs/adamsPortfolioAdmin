@@ -1,6 +1,6 @@
 import axios from 'axios'
 import React, { useState } from 'react'
-import { serverUrl } from '../Urls'
+import { serverUrl } from '../urls'
 import '../css/Login.css'
 import Cookies from 'js-cookie'
 import { useNavigate } from 'react-router-dom'
