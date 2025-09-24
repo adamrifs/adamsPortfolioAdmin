@@ -1,6 +1,6 @@
 import React from 'react'
 import '../css/AdminNavbar.css'
-import { serverUrl } from '../Urls'
+import { serverUrl } from '../urls'
 import Cookies from 'js-cookie'
 import axios from 'axios'
 
