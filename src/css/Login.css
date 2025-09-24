@@ -1,0 +1,78 @@
+.admin-login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(235, 235, 235);
+}
+
+.admin-login-box {
+    width: 400px;
+    height: auto;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 18px;
+    overflow: hidden;
+}
+
+.admin-login-box h1 {
+    margin:0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    background-color: black;
+    color: white;
+    height: auto;
+}
+
+.admin-login-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    height: auto;
+    margin-top: 30px;
+}
+
+.admin-login-input input {
+    width: 300px;
+    height: 40px;
+    padding-left: 20px;
+    font-size: 16px;
+    border-radius: 6px;
+    outline: none;
+    border: 1px solid gray;
+    color: black;
+}
+
+.admin-login-input button{
+    padding: 10px 135px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid black;
+    transition: 0.3s ease;
+    font-size: 16px;
+}
+.admin-login-input button:hover{
+    background-color: transparent;
+    color: black;
+}
+.admin-login-input p{
+    font-size: 20px;
+    color: #007FFF;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.admin-login-input p:hover{
+    color:gray;
+}

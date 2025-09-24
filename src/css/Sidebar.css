@@ -1,0 +1,45 @@
+.Admin-sidebar {
+    width: 18%;
+    min-height: 89.5vh;
+    /* border-right: 1px solid grey; */
+}
+
+.admin-sidebar-links a {
+    text-decoration: none;
+}
+
+.admin-sidebar-links {
+    height: auto;
+    padding: 10px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.admin-sidebar-links p {
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 8px 5px;
+    padding-left: 10px;
+    color: black;
+    text-align: left;
+    transition: 0.2s ease-in-out;
+    position: relative;
+    cursor: pointer;
+}
+
+.admin-sidebar-links p>svg {
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+}
+
+p.active {
+    background-color: black;
+    border-radius: 6px;
+    color: white;
+}

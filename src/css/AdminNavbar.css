@@ -1,0 +1,69 @@
+.admin-navbar-main-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 20px;
+    overflow-x: hidden;
+}
+
+/* ================ admin-logo =============== */
+.admin-logo h2 {
+    font-size: 31px;
+}
+
+/* =============== admin-nav input buttons ========== */
+.admin-nav-right-box {
+    width: 145px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.admin-nav-right-box button {
+    font-size: 18px;
+    background-color: black;
+    border: 2px solid black;
+    padding: 3px 20px;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
+.admin-nav-right-box button:hover {
+    background-color: transparent;
+    color: black;
+}
+
+.admin-nav-right-box button:active {
+    transform: scale(0.9);
+}
+
+/* ============ responsive code =========== */
+@media (max-width:700px) {
+    .admin-navbar-main-container {
+        padding: 10px;
+        height: 60px;
+    }
+
+    .admin-logo h2 {
+        font-size: 19px;
+    }
+
+    .admin-navlinks ul {
+        display: none;
+    }
+
+    .admin-nav-right-box {
+        width: 290px;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .admin-nav-right-box button {
+        font-size: 14px;
+        padding: 2px 12px;
+    }
+
+}

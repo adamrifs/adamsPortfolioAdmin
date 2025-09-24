@@ -1,0 +1,1 @@
+export const serverUrl = 'https://adamsportfolio.onrender.com/api/'
