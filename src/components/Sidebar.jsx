@@ -10,8 +10,8 @@ const Sidebar = ({ setActivePage, activePage }) => {
     return (
         <div className='Admin-sidebar'>
             <div className="admin-sidebar-links">
-                <p onClick={() => setActivePage('add')} className={activePage === 'add' ? `active` : ""}>Add Items <MdOutlinePlaylistAdd /></p>
                 <p onClick={() => setActivePage('list')} className={activePage === 'list' ? "active" : ""}>List Items <CiViewList /></p>
+                <p onClick={() => setActivePage('add')} className={activePage === 'add' ? `active` : ""}>Add Items <MdOutlinePlaylistAdd /></p>
             </div>
         </div>
     )

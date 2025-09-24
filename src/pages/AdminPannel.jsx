@@ -5,7 +5,7 @@ import uploadImage from '../assets/upload_area.png'
 import { serverUrl } from '../urls'
 import axios from 'axios'
 const AdminPannel = () => {
-  const [activePage, setActivePage] = useState('add')
+  const [activePage, setActivePage] = useState('list')
   const [projects, setProjects] = useState([])
   const [image, setImage] = useState(null)
   const [name, setName] = useState('')
